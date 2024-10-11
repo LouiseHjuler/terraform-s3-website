@@ -133,9 +133,12 @@ You can try to modify the CSS and HTML files and re-run the sync command to chan
 * Use terraform destroy to remove the infrastructure
 * Look at the variable again, insert a default value for it (Find out how)
 * Run ```terraform apply```one more time, you are not asked for the value for bucket_name. Why?
-* Make a change to the bucket code and run ```terraform plan```so you can see what will happen before it is applied.
-
-
+* 
+* FlipClass: Look at Terraform modules https://developer.hashicorp.com/terraform/language/modules
+* FlipClass: Look at the module you used in this module in github
+* FlipClass: Look at the S3 resource documentation https://registry.terraform.io/providers/hashicorp/aws/3.36.0/docs/resources/s3_bucket
+* FlipClass: an you make your own S3 module, based on mine, make it a bit different?
+* 
 ##
 Conclusion
 This exercise demonstrates deploying and managing web resources on the cloud using Terraform and AWS CLI.
