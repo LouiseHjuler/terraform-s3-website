@@ -46,7 +46,7 @@ Go to the Terminal, this is where you will perform most actions
    ```
    this will create a terraform-s3-website folder on your file system. This will also be your working directory from now on. 
 
-### Install Terraform 
+### Step 1.1 Install Terraform 
 
 ```
 wget https://releases.hashicorp.com/terraform/1.6.4/terraform_1.6.4_linux_amd64.zip
@@ -94,7 +94,7 @@ Replace <unique-bucket-name> with for example your name, initials or something t
 2. **Plan and Apply**: Execute the infrastructure deployment.
    ```bash
    terraform init
-   terraform apply -var 'bucket_name=<unique-bucket-name>'
+   terraform apply 
    ```
 
 If you get an error message saying something like 
@@ -118,7 +118,7 @@ Retry the operation. Ask the instructor why this happens if you have time and ar
 ### Step 6: Accessing the Website
 - **Retrieve Website URL**: Use Terraform to get the S3 bucket website endpoint.
   ```bash
-  terraform output module.website.s3_website_url
+  terraform output website_url
   ```
 - Access the website through the provided URL.
 
@@ -126,5 +126,16 @@ Retry the operation. Ask the instructor why this happens if you have time and ar
 
 You can try to modify the CSS and HTML files and re-run the sync command to change how it looks.
 
-## Conclusion
+## Tasks
+
+* Use terraform destroy to remove the infrastructure
+* Look at the variable bucket_name, it has no value. This is why you were prompted for it when you ran apply. Try running apply with ```terraform apply -var 'bucket_name=<unique-bucket-name>'```
+* Use terraform destroy to remove the infrastructure
+* Look at the variable again, insert a default value for it (Find out how)
+* Run ```terraform apply```one more time, you are not asked for the value for bucket_name. Why?
+* Make a change to the bucket code and run ```terraform plan```so you can see what will happen before it is applied.
+
+
+##
+Conclusion
 This exercise demonstrates deploying and managing web resources on the cloud using Terraform and AWS CLI.
