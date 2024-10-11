@@ -137,7 +137,7 @@ You can try to modify the CSS and HTML files and re-run the sync command to chan
 * FlipClass: Look at Terraform modules https://developer.hashicorp.com/terraform/language/modules
 * FlipClass: Look at the module you used in this module in github
 * FlipClass: Look at the S3 resource documentation https://registry.terraform.io/providers/hashicorp/aws/3.36.0/docs/resources/s3_bucket
-* FlipClass: an you make your own S3 module, based on mine, make it a bit different?
+* FlipClass: an you make your own S3 Website module, based on mine, make it a bit different?
   
 ##
 Conclusion
