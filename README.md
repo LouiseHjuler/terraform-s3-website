@@ -46,6 +46,14 @@ Go to the Terminal, this is where you will perform most actions
    ```
    this will create a terraform-s3-website folder on your file system. This will also be your working directory from now on. 
 
+### Install Terraform 
+
+```
+wget https://releases.hashicorp.com/terraform/1.6.4/terraform_1.6.4_linux_amd64.zip
+unzip terraform_1.6.4_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
+```
+
 ### Step 2: Terraform Configuration
 
 It is important to create the file within your terraform-s3-website folder, not in the root folder.
