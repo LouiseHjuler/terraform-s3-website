@@ -41,7 +41,7 @@ Go to the Terminal, this is where you will perform most actions
 ### Step 1: Setup and Initialization
 1. **Clone the Repository**: Clone the provided repository to get the static website files. Run these commands in the Cloud 9 terminal. 
    ```bash
-   git clone https://github.com/glennbechdevops/terraform-s3-website.git .
+   git clone https://github.com/glennbechdevops/terraform-s3-website.git
    cd terraform-s3-website
    ```
    this will create a terraform-s3-website folder on your file system. This will also be your working directory from now on. 
