@@ -129,7 +129,7 @@ You can try to modify the CSS and HTML files and re-run the sync command to chan
 ## Tasks
 
 * Use terraform destroy to remove the infrastructure
-* Look at the variable bucket_name, it has no value. This is why you were prompted for it when you ran apply. Try running apply with ```terraform apply -var 'bucket_name=<unique-bucket-name>'```
+* Look at the variable bucket_name, it has no value. This is why you were prompted for it when you ran apply. Try running apply with ```terraform apply -var 'bucket_name=<unique-bucket-name>'``` reflect over why you did not have to enter a value
 * Use terraform destroy to remove the infrastructure
 * Look at the variable again, insert a default value for it (Find out how)
 * Run ```terraform apply```one more time, you are not asked for the value for bucket_name. Why?
