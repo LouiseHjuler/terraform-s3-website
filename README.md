@@ -126,6 +126,10 @@ Retry the operation. Ask the instructor why this happens if you have time and ar
 
 You can try to modify the CSS and HTML files and re-run the sync command to change how it looks.
 
+### Look at the Terraform code for the module we're using 
+
+https://github.com/glennbechdevops/terraform-module-s3-website-
+
 ## Tasks
 
 * Use terraform destroy to remove the infrastructure
